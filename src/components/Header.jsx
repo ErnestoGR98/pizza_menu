@@ -13,7 +13,7 @@ export default function header () {
   }
   return (
     <header>
-      <h1 style ={headerStyle} >La pizza de Don Cangrejo</h1>
+      <h1 style ={headerStyle} >Il Campanile</h1>
     </header>
   )
 }

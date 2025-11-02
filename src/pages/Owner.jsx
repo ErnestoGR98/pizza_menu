@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import '../components/styles/Owner.css'
 import yo from '../assets/yo.jpeg'
 
+
 export default function Owner() {
   const [peliculasFavoritas] = useState([
     'Memento',
@@ -18,7 +19,7 @@ export default function Owner() {
       <img className="owner-image" src={yo} alt="Ernesto González" />
       <h2 className="owner-name">Ernesto González</h2>
       <p className="owner-description">
-        Ingeniero industrial y desarrollador fullstack en formación. Apasionado por la música, el cine y la tecnología.
+        Gerente General
       </p>
       <p className="owner-contact">✉️ Contacto: <a href="mailto:ernesto.gonzalez@email.com">ernesto.gonzalez@email.com</a></p>
 
